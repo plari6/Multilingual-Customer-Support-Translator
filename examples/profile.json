@@ -1,0 +1,20 @@
+{
+  "company": "Maison Nova",
+  "supportHours": "Mon-Fri 9:00-18:00 CET",
+  "agentLanguage": "EN",
+  "supportedLanguages": ["EN", "FR", "DE"],
+  "fallbackCustomerLanguage": "EN",
+  "formality": { "FR": "prefer_more", "DE": "prefer_more" },
+  "doNotTranslate": ["Maison Nova", "NovaPay", "Express+"],
+  "glossary": {
+    "EN>FR": { "store credit": "avoir", "gift card": "carte cadeau", "return label": "étiquette de retour" },
+    "EN>DE": { "store credit": "Gutschrift", "gift card": "Geschenkkarte", "return label": "Rücksendeetikett" },
+    "FR>EN": { "avoir": "store credit", "carte cadeau": "gift card" },
+    "DE>EN": { "Gutschrift": "store credit", "Geschenkkarte": "gift card" }
+  },
+  "macros": {
+    "returns": "You can return any unworn item within 30 days for a full refund. Start your return here: https://maisonnova.example/returns",
+    "shipping_ch": "Yes, we ship to Switzerland. Delivery takes 3 to 5 business days.",
+    "bye": "Thank you for contacting Maison Nova. Is there anything else I can help you with?"
+  }
+}

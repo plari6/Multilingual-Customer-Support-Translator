@@ -1,0 +1,28 @@
+{
+  "name": "multilingual-customer-support-translator",
+  "version": "1.0.0",
+  "description": "Telegram support relay that translates live customer chats between English, French and German with DeepL, so one support team can serve every language.",
+  "type": "module",
+  "bin": {
+    "support-translator": "bin/support-translator.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node bin/support-translator.js start",
+    "serve": "node bin/support-translator.js serve",
+    "chat": "node bin/support-translator.js chat",
+    "demo": "node bin/support-translator.js demo",
+    "test": "node --test --test-reporter=spec \"test/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["telegram-bot", "deepl", "translation", "customer-support", "multilingual", "live-chat", "express", "gemini"],
+  "author": "plari6",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
